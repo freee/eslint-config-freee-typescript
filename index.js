@@ -6,7 +6,6 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
     'prettier',
     'plugin:jsx-a11y/recommended',
     'plugin:import/errors',
@@ -14,15 +13,7 @@ module.exports = {
     'plugin:import/typescript'
   ],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        semi: true,
-        trailingComma: 'none',
-        jsxBracketSameLine: false
-      }
-    ],
+    quotes: ['error', 'single'],
     'no-console': 'warn',
     camelcase: 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
