@@ -13,7 +13,6 @@ module.exports = {
     'plugin:import/typescript'
   ],
   rules: {
-    quotes: ['error', 'single'],
     'no-console': 'warn',
     camelcase: 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
