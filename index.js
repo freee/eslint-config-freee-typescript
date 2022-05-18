@@ -18,7 +18,6 @@ module.exports = {
     camelcase: 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
-    '@typescript-eslint/prefer-interface': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
     '@typescript-eslint/naming-convention': [
       'error',
